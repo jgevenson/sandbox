@@ -1,4 +1,4 @@
-// types/OrderTypes.ts
+
 export interface Ingredient {
   IngredientID: number;
   IngredientDescrption: string;
