@@ -35,7 +35,7 @@ const OrderDetailsDialog: React.FC<OrderDetailsDialogProps> = ({
             <Typography variant="body2" color="text.secondary">
               <List>
                 {item.Ingredients.map((ing) => (
-                  <ListItem key={item.Ingredients.IngredientID}>
+                  <ListItem key={ing.IngredientID}>
                     {ing.IngredientDescrption}
                   </ListItem>
                 ))}
